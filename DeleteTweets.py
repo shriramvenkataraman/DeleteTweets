@@ -42,11 +42,6 @@ def delete(csv_file):
 
 def main():
 
-    consumer_key = config["consumer_key"]
-    consumer_secret = config["consumer_secret"]
-    access_key = config["access_key"]
-    access_secret = config["access_secret"]
-
     delete("tweets.csv")
 
 
